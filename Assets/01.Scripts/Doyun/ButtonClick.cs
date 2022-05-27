@@ -16,7 +16,7 @@ public class ButtonClick : MonoBehaviour
     {
         if(btnName == "Start")
         {
-            //스타트 씬으로 이동하는 코드
+            //스타트 씬으로 이동하는 코드 드드듣드ㅡ드드
         }
         if(btnName == "Quit")
         {
