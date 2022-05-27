@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class CurtainMove : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Vector2 moveDir;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
