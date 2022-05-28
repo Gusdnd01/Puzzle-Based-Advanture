@@ -365,7 +365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &366576552
 RectTransform:
   m_ObjectHideFlags: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd310689fe2cdf74dafca5797232f7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 40
+  cameraSpeed: 30
   confiner: {fileID: 1791312934}
   cmRigCam: {fileID: 497770294}
   _fadePanel: {fileID: 1311712061}
