@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Cinemachine;
+using DG.Tweening;
 
 public class CameraMove : MonoBehaviour
 {
-    [SerializeField] private float cameraSpeed = 20f;
+    public float cameraSpeed = 20f;
     [SerializeField] private PolygonCollider2D confiner;
     [SerializeField] private CinemachineVirtualCamera cmRigCam;
+    [SerializeField] private Image _fadePanel;
 
     private Vector3 rigMax;
     private Vector3 rigMin;
@@ -19,6 +22,8 @@ public class CameraMove : MonoBehaviour
 
         float otho = cmRigCam.m_Lens.OrthographicSize;
         halfWidth = otho * 16/9;
+
+        _fadePanel.DOFade(0f, 2f);
     }
 
     private void Update()
