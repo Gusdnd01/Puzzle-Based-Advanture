@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonClick : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class ButtonClick : MonoBehaviour
     {
         if(btnName == "Start")
         {
-            //스타트 씬으로 이동하는 코드 드드듣드ㅡ드드
+            SceneManager.LoadScene("Chapter1");
         }
         if(btnName == "Quit")
         {

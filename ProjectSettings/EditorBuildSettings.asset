@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/00. Scenes/Hyunwoong/StartScene.unity
-    guid: c86dd8f496c15e6488a4e1b7b9eac519
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/00. Scenes/Hyunwoong/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/00. Scenes/Hyunwoong/Chapter1.unity
     guid: dc5024c4d18e9354080ea50dd4f42473
+  - enabled: 1
+    path: Assets/00. Scenes/Doyun/DoyunTest.unity
+    guid: e3694fc27c546be49a283b1ead7c761c
+  - enabled: 1
+    path: Assets/00. Scenes/Doyun/Stage1Start.unity
+    guid: ad316ea0cbf7c4c46ad39747aa66a0f4
   m_configObjects: {}

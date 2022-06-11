@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Interaction : MonoBehaviour
 {
     Camera cam;
     [SerializeField] private GameObject QuitButtonA;
+    //fixed
+    [SerializeField] private GameObject StartButtonA;
     [SerializeField] private LayerMask raycastLayer;
     private float maxDistance = 1.0f;
 
@@ -25,6 +28,7 @@ public class Interaction : MonoBehaviour
             {
                 CameraManager.instance.SetHelpCamActive();
                 QuitButtonA.SetActive(true);
+                StartButtonA.SetActive(true);
             }
         }
     }
@@ -33,5 +37,10 @@ public class Interaction : MonoBehaviour
     {
         CameraManager.instance.SetRigCamActive();
         QuitButtonA?.SetActive(false);
+    }
+
+    public void StartButton()
+    {
+        SceneManager.LoadScene("Stage1Start");
     }
 }
