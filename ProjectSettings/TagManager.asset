@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - House
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -12,20 +11,20 @@ TagManager:
   - 
   - Water
   - UI
-  - House
   - 
-  - NoneSelectItem1
-  - NoneSelectItem2
-  - W1
-  - W2
-  - W3
-  - W4
-  - W5
-  - Y1
-  - Y2
-  - Y3
-  - Y4
-  - Y5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
