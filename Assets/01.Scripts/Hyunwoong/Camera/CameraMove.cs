@@ -54,17 +54,8 @@ public class CameraMove : MonoBehaviour
 
     IEnumerator SetFade(float sec)
     {
-        Sequence seq = DOTween.Sequence();
-
-        Image imgR = _fadePanelRight.GetComponent<Image>();
-
-        Image imgL = _fadePanelLeft.GetComponent<Image>();
-
         yield return new WaitForSeconds(sec);
-        seq.Append(_fadePanelRight.DOAnchorPosX(-1920, 1f));
-        seq.Join(imgR.DOFade(0, 3f));
-
-        seq.Append(_fadePanelLeft.DOAnchorPosX(1920, 1f));
-        seq.Join(imgL.DOFade(0, 3f));
+        _fadePanelRight.DOAnchorPosX(-1920, 1f);
+        _fadePanelLeft.DOAnchorPosX(1920, 1f);
     }
 }
